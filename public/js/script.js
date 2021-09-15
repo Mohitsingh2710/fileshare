@@ -312,7 +312,7 @@ onload = function () {
                 }
               };
             //   `${process.env.APP_BASE_URL}/api/files`
-            xhr.open("POST", "https://compfileshare.herokuapp.com/api/files");
+            xhr.open("POST", "https://compsharefile.herokuapp.com/api/files");
             xhr.send(formData);
             };
 
@@ -374,7 +374,7 @@ onload = function () {
           }
         };
       
-        xhr.open("POST", "https://compfileshare.herokuapp.com/api/files");
+        xhr.open("POST", "https://compsharefile.herokuapp.com/api/files");
         xhr.send(formData);
       };
 
